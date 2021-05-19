@@ -2,6 +2,10 @@
 
 A DevEco Studio plugin migrated from android logcat.
 
+# Download
+
+[Releases](/releases)
+
 # Screenshot
 
 ![](WX20210519-114720@2x.png)
