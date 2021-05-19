@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>com.github.leadroyal.hmlogcat</id>
+    <name>HmLogcat</name>
+    <vendor>leadroyal</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.android</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="HmLogcat"
+                    icon="/logcat.svg"
+                    secondary="true"
+                    anchor="bottom"
+                    factoryClass="com.android.tools.idea.logcat.AndroidLogcatToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
